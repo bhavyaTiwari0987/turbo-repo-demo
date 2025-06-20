@@ -1,6 +1,7 @@
 {
   "name": "app1",
   "version": "0.1.0",
+  "type": "module",
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack --port 3000",
@@ -15,7 +16,6 @@
     "next": "15.3.3"
   },
   "devDependencies": {
-    "ui": "*",
     "@repo/eslint-config": "*",
     "@tailwindcss/postcss": "^4",
     "tailwindcss": "^4",
